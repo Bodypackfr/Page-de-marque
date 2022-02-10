@@ -1,0 +1,799 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+body .logo_bodypack {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/LOGO-EPURE_70429352-4f34-4c0f-94a1-70048b7c2efc.png?v=1614380148");
+}
+body .logo_marque_francaise {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/pictotheque_Marque_Francaise_94c7b8e1-b6d5-4b98-a8c9-ffc24e6e32db.jpg?v=1613143972");
+}
+body .notre_mission_image {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/1399_heritage_gris_chine_avec_Corentin_Albertini_48-min.jpg?v=1637849389");
+}
+body .logo_bodypack {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/LOGO-EPURE_70429352-4f34-4c0f-94a1-70048b7c2efc.png?v=1614380148");
+}
+body .le_bon_produit_image {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/pf-d6cff605--2021-RDC-Secondaire-5439.jpg?v=1637849389");
+}
+body .le_bon_produit_image_2 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/2021_-_RDC_-_Secondaire_-_5878.jpg?v=1637756705");
+}
+body .le_bon_produit_image_3 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/1385_SAC_MOTO_1_1.jpg?v=1637756705");
+}
+body .impact_positif_image {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/2021_-_RDC_-_Primaire_-_4733.jpg?v=1637756705");
+}
+body .upcycling_image {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/Capture.jpg?v=1637756705");
+}
+body .vegan_image {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/2021_-_RDC_-_Secondaire_-_6063.jpg?v=1637756706");
+}
+body .impact_positif_image_2 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/2021_-_RDC_-_Primaire_-_4666.jpg?v=1637756705");
+}
+body .impact_positif_image_3 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/2021_-_RDC_-_Primaire_-_4987_1.jpg?v=1637756705");
+}
+body .impact_positif_image_4 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/2021_-_RDC_-_Maternelle_-_4373.jpg?v=1637756705");
+}
+body .impact_positif_image_5 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/2021_-_RDC_-_Secondaire_-_5326.jpg?v=1637756705");
+}
+body .distribution_besoin_image {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/Associations___ASRENS_2019_29_7cc15818-921d-4874-8a1d-c64cb2f45d50.jpg?v=1637756706");
+}
+body .distribution_besoin_image_2 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/3145_1020_SPORT_AQUA_5.jpg?v=1637756705");
+}
+body .soutenir_association_image {
+  background-image: url("https://cdn.shopify.com/s/files/1/0069/0549/5636/files/2021_-_RDC_-_Secondaire_-_5477.jpg?v=1637756705");
+}
+body main {
+  padding: 20px;
+}
+body h1 {
+  text-shadow: 1px 1px 1px #6382a1;
+  color: #003B71;
+  font-size: 3em;
+}
+body h2 {
+  font-size: 2em;
+  -moz-text-align-last: start;
+  text-align-last: start;
+  font-size: 2em;
+}
+body h2 .co2 {
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+body h3 {
+  font-size: 1em;
+  color: #003B71;
+  font-size: 2em;
+}
+body p {
+  font-size: 1.5em;
+}
+body span {
+  color: #003B71;
+}
+body svg {
+  height: 4em;
+}
+body .produit_image {
+  width: 35%;
+  height: 25em;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+#mission {
+  text-align: left;
+}
+
+.bodypack {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0 0 0;
+}
+.bodypack .notre_logo {
+  width: 5%;
+  height: 5em;
+  background-size: cover;
+  background-position: center;
+}
+
+.container_icon {
+  width: 50%;
+  display: table-cell;
+}
+
+.svg-block {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.fa-blue {
+  color: #2a51d1;
+}
+
+.fa-instagram {
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  vertical-align: middle;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.fa-youtube-square {
+  color: #c4302b;
+}
+
+.fa-pinterest-square {
+  color: #c8232c;
+}
+
+.notre_mission {
+  padding: 0 0 20px 0;
+}
+.notre_mission .notre_logo {
+  width: 5%;
+  height: 5em;
+  background-size: cover;
+  background-position: center;
+}
+.notre_mission .top-right {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+}
+.notre_mission .top-left {
+  position: absolute;
+  top: 4em;
+  left: 5em;
+}
+.notre_mission .top-left p {
+  color: #003B71;
+  font-size: 3em;
+}
+.notre_mission .notre_image {
+  width: 100%;
+  height: 30em;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.notre_mission_3 {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+.notre_mission_3 .produit_parent {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.notre_mission_3 .produit_parent .produit_texte {
+  text-align: justify;
+  -moz-text-align-last: end;
+  text-align-last: end;
+}
+
+.notre_mission_4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+.notre_mission_4 .produit_parent_2 {
+  width: 66.9%;
+  -moz-text-align-last: start;
+  text-align-last: start;
+}
+.notre_mission_4 .produit_parent_2 h2 {
+  padding: 0 0 2.3em 0;
+}
+.notre_mission_4 .produit_parent_2 p {
+  border: 2px solid;
+  padding: 2em;
+  text-align: justify;
+  border-radius: 5px;
+}
+.notre_mission_4 .container_image_2 {
+  width: 31.4%;
+  height: auto;
+}
+.notre_mission_4 .container_image_2 .produit_image {
+  width: 100%;
+  height: 22em;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.notre_mission_5 {
+  display: flex;
+  width: 100%;
+  padding: 0 0 20px 0;
+  text-align: justify;
+  justify-content: space-between;
+  align-items: center;
+}
+.notre_mission_5 .container_image_3 {
+  width: 34%;
+  height: auto;
+}
+.notre_mission_5 .container_image_3 .produit_image_2 {
+  width: auto;
+  height: 22em;
+  background-position: 0px -15em;
+  background-size: cover;
+  border-radius: 5px;
+}
+.notre_mission_5 .poly {
+  width: 30%;
+  background-color: #679bfd;
+  border-radius: 5px;
+  padding: 12.1px;
+  align-self: stretch;
+}
+.notre_mission_5 .innovant {
+  width: 30%;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  align-self: stretch;
+}
+
+.impact_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+  text-align: justify;
+}
+.impact_container .container_image_positif {
+  width: 40%;
+}
+.impact_container .container_image_positif > .produit_image {
+  width: 85%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.impact_container .container_text_positif {
+  width: 40%;
+  -moz-text-align-last: end;
+  text-align-last: end;
+  align-self: center;
+}
+
+.upcycling_parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: justify;
+  padding: 0 0 20px 0;
+}
+.upcycling_parent .upcycling_text {
+  width: 40%;
+  background-color: #679bfd;
+  border-radius: 5px;
+  align-self: center;
+  padding: 18px;
+}
+.upcycling_parent .upcycling_text_2 {
+  width: 20%;
+  align-self: center;
+  border: 2px solid;
+  padding: 20px;
+  border-radius: 5px;
+}
+.upcycling_parent .upcycling_image_container {
+  width: 20%;
+}
+.upcycling_parent .upcycling_image_container .upcycling_image {
+  height: 18em;
+  background-position: 0px -3em;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.vegan_parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+.vegan_parent .vegan_text {
+  width: 58.5%;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 2em;
+}
+.vegan_parent .parent_vegan_image {
+  width: 20%;
+  height: auto;
+}
+.vegan_parent .parent_vegan_image .vegan_image {
+  height: 18em;
+  background-size: cover;
+  background-position: 0px -7em;
+  border-radius: 5px;
+}
+
+.objectif_parent {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+}
+.objectif_parent .impact_positif_image_parent {
+  width: 30%;
+}
+.objectif_parent .impact_positif_image_parent .impact_positif_image_2 {
+  height: 18.2em;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.objectif_parent .objectif {
+  width: 25%;
+  padding: 20px;
+  border-radius: 5px;
+}
+.objectif_parent .objectif.objectif_background {
+  background-color: #679bfd;
+  padding: 4em 2em 2em 2em;
+}
+.objectif_parent .objectif.objectif_border {
+  border: 2px solid;
+  padding: 4em 3em 3em 3em;
+}
+
+.reflexe_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+}
+.reflexe_container .reflexe_parent {
+  width: 60%;
+  border: 2px solid;
+  text-align: justify;
+  padding: 3.5em 2.1em 3.5em 2.1em;
+  border-radius: 5px;
+}
+.reflexe_container .impact_image_3_parent {
+  width: 30%;
+}
+.reflexe_container .impact_image_3_parent .impact_positif_image_3 {
+  height: 18em;
+  background-position: 0px -25em;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.recycle_parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+  text-align: justify;
+}
+.recycle_parent .impact_image_parent {
+  width: 20%;
+}
+.recycle_parent .impact_image_parent .produit_image_2 {
+  width: 100%;
+  height: 20em;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.recycle_parent .recycle_text {
+  width: 50%;
+  background-color: #679bfd;
+  padding: 6em 2em 2em 2em;
+  border-radius: 5px;
+}
+
+.besoin {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+  text-align: end;
+  align-items: center;
+}
+.besoin .besoin_image_container {
+  width: 30%;
+}
+.besoin .besoin_image_container .distribution_besoin_image {
+  width: 100%;
+  background-size: cover;
+}
+.besoin .besoin_text_container {
+  width: 45%;
+}
+
+.besoin_2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+}
+.besoin_2 .besoin_image_container_2 {
+  width: 30%;
+}
+.besoin_2 .besoin_image_container_2 .distribution_besoin_image_2 {
+  width: 100%;
+  height: 14em;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.besoin_2 .circulaire_text {
+  width: 60%;
+  border: 2px solid;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.soutenir_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.soutenir_container .soutenir_text_container {
+  width: 30%;
+}
+.soutenir_container .soutenir_text_container.soutenir_text {
+  background-color: #679bfd;
+  border-radius: 5px;
+  padding: 4em 2em 1em 2em;
+}
+.soutenir_container .soutenir_text_container.soutenir_text_2 {
+  border: 2px solid;
+  border-radius: 5px;
+  align-self: stretch;
+  padding: 6em 2em 1em 2em;
+}
+.soutenir_container .association_image_container {
+  width: 30%;
+}
+.soutenir_container .association_image_container .soutenir_association_image {
+  width: 100%;
+  height: 19em;
+  background-size: cover;
+  background-position: 0px -2.5em;
+  border-radius: 5px;
+}
+
+.container_contact_us {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.container_contact_us .contact_us {
+  width: 100%;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  padding: 40px 0 40px 0;
+}
+
+@media (max-width: 1620px) {
+  .produit_image {
+    background-position: -3em 0px;
+  }
+
+  .notre_mission_5 .container_image_3 .produit_image_2 {
+    background-position: 0px -12em;
+  }
+
+  .vegan_parent .parent_vegan_image .vegan_image {
+    background-position: 0px -9em;
+  }
+
+  .reflexe_container .impact_image_3_parent .impact_positif_image_3 {
+    background-position: 0px -20em;
+  }
+
+  .besoin .besoin_image_container .distribution_besoin_image {
+    background-position: center;
+  }
+
+  .soutenir_container .association_image_container .soutenir_association_image {
+    background-position: center;
+  }
+}
+@media (max-width: 1440px) {
+  .produit_image {
+    background-position: -6em 0px;
+  }
+
+  .notre_mission_5 .container_image_3 .produit_image_2 {
+    background-position: 0px -10em;
+  }
+
+  .vegan_parent .parent_vegan_image .vegan_image {
+    background-position: center;
+  }
+
+  .reflexe_container .impact_image_3_parent .impact_positif_image_3 {
+    background-position: 0px -17em;
+  }
+
+  .recycle_parent .impact_image_parent .impact_positif_image_4 {
+    background-position: 0px -5em;
+  }
+}
+@media (max-width: 1024px) {
+  .notre_mission .notre_image {
+    background-position: -50em 0px;
+  }
+  .notre_mission .top-left {
+    top: 5em;
+    left: 3em;
+  }
+  .notre_mission .top-right {
+    top: 2.5em;
+    right: 3em;
+  }
+
+  .notre_mission_3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .notre_mission_3 .produit_image {
+    background-position: 0px 0px;
+    width: 100%;
+    height: 35em;
+  }
+  .notre_mission_3 .produit_parent {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .notre_mission_3 .produit_parent .produit_texte {
+    -moz-text-align-last: start;
+    text-align-last: start;
+  }
+
+  .notre_mission_4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .notre_mission_4 .container_image_2 {
+    width: 100%;
+  }
+  .notre_mission_4 .container_image_2 .produit_image {
+    background-position: 0px -4em;
+    height: 35em;
+  }
+  .notre_mission_4 .produit_parent_2 {
+    width: 100%;
+  }
+  .notre_mission_4 .produit_parent_2 h2 {
+    padding: 20px 0 0 0;
+  }
+  .notre_mission_4 .produit_parent_2 p {
+    padding: 0;
+  }
+
+  .notre_mission_5 {
+    flex-direction: column;
+  }
+  .notre_mission_5 .container_image_3 {
+    width: 100%;
+  }
+  .notre_mission_5 .container_image_3 .produit_image_2 {
+    height: 35em;
+    background-position: 0px -25em;
+  }
+  .notre_mission_5 .poly {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    padding: 0;
+  }
+  .notre_mission_5 .innovant {
+    width: 100%;
+    padding: 0;
+  }
+
+  .impact_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .impact_container .container_image_positif {
+    width: 100%;
+  }
+  .impact_container .container_image_positif .produit_image {
+    width: 100%;
+    height: 35em;
+  }
+  .impact_container .container_text_positif {
+    width: 100%;
+    -moz-text-align-last: start;
+    text-align-last: start;
+    padding: 20px 0 0 0;
+  }
+
+  .upcycling_parent {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .upcycling_parent .upcycling_image_container {
+    width: 100%;
+  }
+  .upcycling_parent .upcycling_image_container .upcycling_image {
+    height: 35em;
+    background-position: 0px -5em;
+  }
+  .upcycling_parent .upcycling_text_2 {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 20px 0;
+  }
+  .upcycling_parent .upcycling_text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .vegan_parent {
+    flex-direction: column-reverse;
+  }
+  .vegan_parent .parent_vegan_image {
+    width: 100%;
+  }
+  .vegan_parent .parent_vegan_image .vegan_image {
+    height: 35em;
+    background-position: 0px -20em;
+  }
+  .vegan_parent .vegan_text {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .objectif_parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .objectif_parent .impact_positif_image_parent {
+    width: 100%;
+  }
+  .objectif_parent .impact_positif_image_parent .impact_positif_image_2 {
+    height: 35em;
+  }
+  .objectif_parent .objectif {
+    width: 100%;
+  }
+  .objectif_parent .objectif.objectif_background {
+    padding: 0;
+    margin: 20px 0 20px 0;
+  }
+  .objectif_parent .objectif.objectif_border {
+    padding: 0;
+  }
+
+  .reflexe_container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .reflexe_container .impact_image_3_parent {
+    width: 100%;
+  }
+  .reflexe_container .impact_image_3_parent .impact_positif_image_3 {
+    background-position: 0px -43em;
+    height: 35em;
+  }
+  .reflexe_container .reflexe_parent {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 20px 0;
+  }
+
+  .recycle_parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .recycle_parent .impact_image_parent {
+    width: 100%;
+  }
+  .recycle_parent .impact_image_parent .impact_positif_image_4 {
+    height: 35em;
+    background-position: 0px -20em;
+  }
+  .recycle_parent .impact_image_parent .impact_positif_image_5 {
+    height: 35em;
+  }
+  .recycle_parent .recycle_text {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 20px 0;
+  }
+
+  .besoin {
+    flex-direction: column;
+  }
+  .besoin .besoin_image_container {
+    width: 100%;
+  }
+  .besoin .besoin_image_container .distribution_besoin_image {
+    height: 35em;
+    background-position: 0px -4em;
+  }
+  .besoin .besoin_text_container {
+    width: 100%;
+    text-align: start;
+    padding: 20px 0 0 0;
+  }
+  .besoin .besoin_text_container h1 {
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
+  }
+
+  .besoin_2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .besoin_2 .besoin_image_container_2 {
+    width: 100%;
+  }
+  .besoin_2 .besoin_image_container_2 .distribution_besoin_image_2 {
+    height: 35em;
+  }
+  .besoin_2 .circulaire_text {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .soutenir_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .soutenir_container .association_image_container {
+    width: 100%;
+  }
+  .soutenir_container .association_image_container .soutenir_association_image {
+    height: 35em;
+  }
+  .soutenir_container .soutenir_text_container {
+    width: 100%;
+  }
+  .soutenir_container .soutenir_text_container.soutenir_text {
+    padding: 0;
+    margin: 20px 0 20px 0;
+  }
+  .soutenir_container .soutenir_text_container {
+    width: 100%;
+  }
+  .soutenir_container .soutenir_text_container.soutenir_text_2 {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
