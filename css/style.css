@@ -73,16 +73,20 @@ body p {
 body span {
   color: #003B71;
 }
-body .produit_image {
-  width: 35%;
-  height: 25em;
+body .container_image {
+  width: 20%;
+  height: auto;
+}
+body .container_image .produit_image {
+  width: 100%;
+  height: 23em;
   background-size: cover;
+  background-position: center;
   border-radius: 5px;
 }
 
 #mission .notre_mission_2 {
   text-align: center;
-  text-align-last: none;
 }
 
 .notre_mission .notre_image {
@@ -96,166 +100,137 @@ body .produit_image {
 .notre_mission_3 {
   display: inline-flex;
   width: 100%;
-  justify-content: space-between;
+  height: auto;
   align-items: center;
   padding: 0 0 20px 0;
 }
+.notre_mission_3 .container_image {
+  padding: 0 10em 0 0;
+}
 .notre_mission_3 .produit_parent {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .notre_mission_3 .produit_parent .produit_texte {
   text-align: justify;
-  -moz-text-align-last: end;
-  text-align-last: end;
+  -moz-text-align-last: start;
+  text-align-last: start;
 }
 
 .notre_mission_4 {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: auto;
   justify-content: space-between;
   align-items: center;
   padding: 0 0 20px 0;
 }
 .notre_mission_4 .produit_parent_2 {
-  width: 66.9%;
+  width: 78%;
   -moz-text-align-last: start;
   text-align-last: start;
 }
-.notre_mission_4 .produit_parent_2 h2 {
-  padding: 0 0 2.3em 0;
-}
 .notre_mission_4 .produit_parent_2 p {
   border: 2px solid;
-  padding: 2em;
+  padding: 4.4em;
   text-align: justify;
-  border-radius: 5px;
-}
-.notre_mission_4 .container_image_2 {
-  width: 31.4%;
-  height: auto;
-}
-.notre_mission_4 .container_image_2 .produit_image {
-  width: 100%;
-  height: 22em;
-  background-size: cover;
-  background-position: center;
   border-radius: 5px;
 }
 
 .notre_mission_5 {
   display: flex;
   width: 100%;
+  height: auto;
   padding: 0 0 20px 0;
   text-align: justify;
   justify-content: space-between;
   align-items: center;
 }
-.notre_mission_5 .container_image_3 {
-  width: 34%;
-  height: auto;
-}
-.notre_mission_5 .container_image_3 .produit_image_2 {
-  width: auto;
-  height: 22em;
-  background-position: 0px -15em;
-  background-size: cover;
-  border-radius: 5px;
-}
 .notre_mission_5 .poly {
-  width: 30%;
+  width: 35%;
   background-color: #679bfd;
   border-radius: 5px;
-  padding: 12.1px;
+  padding: 2em;
   align-self: stretch;
 }
 .notre_mission_5 .innovant {
-  width: 30%;
+  width: 35%;
   border: 2px solid;
   border-radius: 5px;
-  padding: 10px;
+  padding: 2em;
   align-self: stretch;
 }
 
 .impact_container {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  height: auto;
   padding: 0 0 20px 0;
   text-align: justify;
 }
-.impact_container .container_image_positif {
-  width: 40%;
-}
-.impact_container .container_image_positif > .produit_image {
-  width: 85%;
-  background-position: center;
-  background-size: cover;
-  border-radius: 5px;
+.impact_container .container_image {
+  padding: 0 10em 0 0;
 }
 .impact_container .container_text_positif {
-  width: 40%;
-  -moz-text-align-last: end;
-  text-align-last: end;
+  width: 60%;
+  -moz-text-align-last: start;
+  text-align-last: start;
   align-self: center;
+}
+
+.upcycling_h2 {
+  text-align: center;
 }
 
 .upcycling_parent {
   display: flex;
   width: 100%;
+  height: auto;
   justify-content: space-between;
   text-align: justify;
   padding: 0 0 20px 0;
 }
 .upcycling_parent .upcycling_text {
-  width: 40%;
+  width: 45%;
   background-color: #679bfd;
   border-radius: 5px;
-  align-self: center;
-  padding: 18px;
+  align-self: stretch;
+  padding: 2em;
 }
 .upcycling_parent .upcycling_text_2 {
   width: 20%;
-  align-self: center;
   border: 2px solid;
-  padding: 20px;
   border-radius: 5px;
-}
-.upcycling_parent .upcycling_image_container {
-  width: 20%;
-}
-.upcycling_parent .upcycling_image_container .upcycling_image {
-  height: 18em;
-  background-position: 0px -3em;
-  background-size: cover;
-  border-radius: 5px;
+  align-self: stretch;
+  padding: 2em;
 }
 
 .vegan_parent {
   display: flex;
   width: 100%;
+  height: auto;
   justify-content: space-between;
   align-items: center;
   padding: 0 0 20px 0;
 }
 .vegan_parent .vegan_text {
-  width: 58.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 78%;
   border: 2px solid;
   border-radius: 5px;
-  padding: 2em;
+  align-self: stretch;
+  text-align: justify;
 }
-.vegan_parent .parent_vegan_image {
-  width: 20%;
-  height: auto;
+.vegan_parent .vegan_text h3 {
+  padding: 0 0 0 2em;
 }
-.vegan_parent .parent_vegan_image .vegan_image {
-  height: 18em;
-  background-size: cover;
-  background-position: 0px -7em;
-  border-radius: 5px;
+.vegan_parent .vegan_text p {
+  padding: 0 2em 0 2em;
 }
 
 .objectif_parent {
@@ -265,27 +240,16 @@ body .produit_image {
   justify-content: space-between;
   padding: 0 0 20px 0;
 }
-.objectif_parent .impact_positif_image_parent {
-  width: 30%;
-}
-.objectif_parent .impact_positif_image_parent .impact_positif_image_2 {
-  height: 18.2em;
-  background-position: center;
-  background-size: cover;
-  border-radius: 5px;
-}
 .objectif_parent .objectif {
-  width: 25%;
-  padding: 20px;
+  width: 35%;
+  padding: 2em;
   border-radius: 5px;
 }
 .objectif_parent .objectif.objectif_background {
   background-color: #679bfd;
-  padding: 4em 2em 2em 2em;
 }
 .objectif_parent .objectif.objectif_border {
   border: 2px solid;
-  padding: 4em 3em 3em 3em;
 }
 
 .reflexe_container {
@@ -301,15 +265,6 @@ body .produit_image {
   padding: 3.5em 2.1em 3.5em 2.1em;
   border-radius: 5px;
 }
-.reflexe_container .impact_image_3_parent {
-  width: 30%;
-}
-.reflexe_container .impact_image_3_parent .impact_positif_image_3 {
-  height: 18em;
-  background-position: 0px -25em;
-  background-size: cover;
-  border-radius: 5px;
-}
 
 .recycle_parent {
   display: flex;
@@ -317,16 +272,6 @@ body .produit_image {
   justify-content: space-between;
   padding: 0 0 20px 0;
   text-align: justify;
-}
-.recycle_parent .impact_image_parent {
-  width: 20%;
-}
-.recycle_parent .impact_image_parent .produit_image_2 {
-  width: 100%;
-  height: 20em;
-  background-position: center;
-  background-size: cover;
-  border-radius: 5px;
 }
 .recycle_parent .recycle_text {
   width: 50%;
@@ -343,13 +288,6 @@ body .produit_image {
   text-align: end;
   align-items: center;
 }
-.besoin .besoin_image_container {
-  width: 30%;
-}
-.besoin .besoin_image_container .distribution_besoin_image {
-  width: 100%;
-  background-size: cover;
-}
 .besoin .besoin_text_container {
   width: 45%;
 }
@@ -359,16 +297,6 @@ body .produit_image {
   width: 100%;
   justify-content: space-between;
   padding: 0 0 20px 0;
-}
-.besoin_2 .besoin_image_container_2 {
-  width: 30%;
-}
-.besoin_2 .besoin_image_container_2 .distribution_besoin_image_2 {
-  width: 100%;
-  height: 14em;
-  background-position: center;
-  background-size: cover;
-  border-radius: 5px;
 }
 .besoin_2 .circulaire_text {
   width: 60%;
@@ -395,31 +323,6 @@ body .produit_image {
   border-radius: 5px;
   align-self: stretch;
   padding: 6em 2em 1em 2em;
-}
-.soutenir_container .association_image_container {
-  width: 30%;
-}
-.soutenir_container .association_image_container .soutenir_association_image {
-  width: 100%;
-  height: 19em;
-  background-size: cover;
-  background-position: 0px -2.5em;
-  border-radius: 5px;
-}
-
-.container_contact_us {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-}
-.container_contact_us .contact_us {
-  width: 100%;
-  -moz-text-align-last: center;
-  text-align-last: center;
-  padding: 40px 0 40px 0;
 }
 
 @media (max-width: 1620px) {
