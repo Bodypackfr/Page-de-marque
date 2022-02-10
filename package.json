@@ -1,0 +1,19 @@
+{
+  "name": "page-de-marque",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bodypackfr/Page-de-marque.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bodypackfr/Page-de-marque/issues"
+  },
+  "homepage": "https://github.com/Bodypackfr/Page-de-marque#readme"
+}
