@@ -259,11 +259,20 @@ body .container_image .produit_image {
   padding: 0 0 20px 0;
 }
 .reflexe_container .reflexe_parent {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 78%;
   border: 2px solid;
-  text-align: justify;
-  padding: 3.5em 2.1em 3.5em 2.1em;
   border-radius: 5px;
+  align-self: stretch;
+  text-align: justify;
+}
+.reflexe_container .reflexe_parent h3 {
+  padding: 0 0 0 2em;
+}
+.reflexe_container .reflexe_parent p {
+  padding: 0 2em 0 2em;
 }
 
 .recycle_parent {
@@ -274,22 +283,37 @@ body .container_image .produit_image {
   text-align: justify;
 }
 .recycle_parent .recycle_text {
-  width: 50%;
+  width: 56.5%;
   background-color: #679bfd;
-  padding: 6em 2em 2em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 5px;
+  align-self: stretch;
+  text-align: justify;
+}
+.recycle_parent .recycle_text h3 {
+  padding: 0 0 0 2em;
+}
+.recycle_parent .recycle_text p {
+  padding: 0 2em 0 2em;
 }
 
 .besoin {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  height: auto;
   padding: 0 0 20px 0;
-  text-align: end;
-  align-items: center;
+  text-align: justify;
+}
+.besoin .container_image {
+  padding: 0 10em 0 0;
 }
 .besoin .besoin_text_container {
-  width: 45%;
+  width: 60%;
+  -moz-text-align-last: start;
+  text-align-last: start;
+  align-self: center;
 }
 
 .besoin_2 {
@@ -299,19 +323,29 @@ body .container_image .produit_image {
   padding: 0 0 20px 0;
 }
 .besoin_2 .circulaire_text {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 78%;
   border: 2px solid;
-  padding: 20px;
   border-radius: 5px;
+  align-self: stretch;
+  text-align: justify;
+}
+.besoin_2 .circulaire_text p {
+  padding: 0 2em 0 2em;
 }
 
 .soutenir_container {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 0 0 20px 0;
 }
 .soutenir_container .soutenir_text_container {
-  width: 30%;
+  width: 35%;
+  padding: 2em;
+  border-radius: 5px;
 }
 .soutenir_container .soutenir_text_container.soutenir_text {
   background-color: #679bfd;
@@ -321,8 +355,17 @@ body .container_image .produit_image {
 .soutenir_container .soutenir_text_container.soutenir_text_2 {
   border: 2px solid;
   border-radius: 5px;
-  align-self: stretch;
   padding: 6em 2em 1em 2em;
+}
+
+.co2 {
+  text-align: center;
+}
+
+.youtubevideo {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 @media (max-width: 1620px) {

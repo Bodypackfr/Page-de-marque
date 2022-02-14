@@ -276,11 +276,20 @@ body
     justify-content: space-between;
     padding: 0 0 20px 0;
     .reflexe_parent{
-        width: 60%;
-        border: 2px solid;
-        text-align: justify;
-        padding: 3.5em 2.1em 3.5em 2.1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 78%;
+        border: 2px  solid;
         border-radius: 5px;
+        align-self: stretch;
+        text-align: justify;
+        h3{
+            padding: 0 0 0 2em;
+        }
+        p{
+            padding: 0 2em 0 2em;
+        }
     }
 }
 .recycle_parent{
@@ -290,21 +299,36 @@ body
     padding: 0 0 20px 0;
     text-align: justify;
     .recycle_text{
-        width: 50%;
+        width: 56.5%;
         background-color: rgb(103, 155, 253);
-        padding: 6em 2em 2em 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         border-radius: 5px;
+        align-self: stretch;
+        text-align: justify;
+        h3{
+            padding: 0 0 0 2em;
+        }
+        p{
+            padding: 0 2em 0 2em;
+        }
     }
 }
 .besoin{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    height: auto;
     padding: 0 0 20px 0;
-    text-align: end;
-    align-items: center;
+    text-align: justify;
+    .container_image{
+        padding: 0 10em 0 0;
+    }
     .besoin_text_container{
-        width: 45%;
+        width: 60%;
+        -moz-text-align-last: start;
+        text-align-last: start;
+        align-self: center;
     }
 }
 .besoin_2{
@@ -313,18 +337,28 @@ body
     justify-content: space-between;
     padding: 0 0 20px 0;
     .circulaire_text{
-        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 78%;
         border: 2px  solid;
-        padding: 20px;
         border-radius: 5px;
+        align-self: stretch;
+        text-align: justify;
+        p{
+            padding: 0 2em 0 2em;
+        }
     }
 }
 .soutenir_container{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding: 0 0 20px 0;
     .soutenir_text_container{
-        width: 30%;
+        width: 35%;
+        padding: 2em;
+        border-radius: 5px;
         &.soutenir_text{
             background-color: rgb(103, 155, 253);
             border-radius: 5px;
@@ -333,10 +367,17 @@ body
         &.soutenir_text_2{
             border: 2px solid;
             border-radius: 5px;
-            align-self: stretch;
             padding: 6em 2em 1em 2em;
         }
     }
+}
+.co2{
+    text-align: center;
+}
+.youtubevideo{
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 @media (max-width: 1620px) {
     .produit_image{
