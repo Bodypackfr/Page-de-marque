@@ -377,5 +377,32 @@ body .container_image .produit_image {
     height: 20em;
   }
 }
+@media (max-width: 1440px) {
+  .notre_mission .notre_image {
+    height: 21em;
+  }
+
+  .notre_mission_4 .produit_parent_2 p {
+    padding: 2.8em;
+  }
+
+  .notre_mission_5 .poly {
+    padding: 1em;
+  }
+  .notre_mission_5 .innovant {
+    padding: 1em;
+  }
+
+  .objectif_parent .objectif {
+    padding: 1em;
+  }
+
+  .soutenir_container .soutenir_text_container.soutenir_text {
+    padding: 0;
+  }
+  .soutenir_container .soutenir_text_container.soutenir_text_2 {
+    padding: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
